@@ -9,7 +9,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * java.util.ConcurrentModificationException
  */
-public class ContainerNotSafeDemo {
+public class ContainerNotSafeListDemo {
 
     public static void main(String[] args) {
 //        List<String> list = new ArrayList<String>();
