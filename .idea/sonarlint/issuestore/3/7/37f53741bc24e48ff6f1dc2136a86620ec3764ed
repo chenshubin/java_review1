@@ -1,0 +1,11 @@
+
+[	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(²ÑÛ¤
+V	java:S125"<This block of commented-out lines of code should be removed.(ð˜üúÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(í—Ü
+^
+java:S2276-"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+‚
+java:S11301"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(²ÑÛ¤
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ä‘šÚþÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(í—Ü
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(Ä‘šÚþÿÿÿÿ

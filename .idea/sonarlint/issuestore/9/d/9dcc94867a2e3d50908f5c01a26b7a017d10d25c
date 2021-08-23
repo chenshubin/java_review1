@@ -1,0 +1,8 @@
+
+q
+java:S1128"\Remove this unused import 'com.oracle.webservices.internal.api.databinding.DatabindingMode'.(Ó†€p
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÿã¨Ã
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹Ø≤Ç
+M	java:S106"9Replace this use of System.out or System.err by a logger.(®¨°1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(®¨°18Ï‘˚–≥/

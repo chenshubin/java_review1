@@ -1,0 +1,7 @@
+
+W
+java:S3078"AUse an "AtomicInteger" for this field; its operations are atomic.(‹ËÈ¬
+S
+java:S1854"8Remove this useless assignment to local variable "lock".(âÑý³øÿÿÿÿ
+D
+java:S1481")Remove this unused "lock" local variable.(âÑý³øÿÿÿÿ

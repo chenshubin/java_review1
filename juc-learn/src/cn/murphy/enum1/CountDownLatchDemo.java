@@ -4,6 +4,9 @@ import cn.murphy.enum1.CountryEnum;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 倒计时，并且全部完成后，执行后面的事务
+ */
 public class CountDownLatchDemo {
 
     public static void main(String[] args) throws InterruptedException {

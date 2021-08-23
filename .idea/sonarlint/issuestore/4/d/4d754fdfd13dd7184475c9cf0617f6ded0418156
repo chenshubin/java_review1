@@ -1,0 +1,13 @@
+
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(Áž«î
+]
+java:S1128"GRemove this unused import 'java.util.concurrent.ConcurrentSkipListSet'.(Ä‹Úå
+R
+java:S1128"<Remove this unused import 'sun.rmi.runtime.NewThreadAction'.(Áž«î
+V	java:S125"<This block of commented-out lines of code should be removed.(¤ÿ¥øÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(…ÞÎ”úÿÿÿÿ8µ¢ŠÔ³/
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß¼…š
+V	java:S125"<This block of commented-out lines of code should be removed.(Ô©›„ýÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ

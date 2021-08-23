@@ -1,0 +1,13 @@
+
+M
+java:S1854"7Remove this useless assignment to local variable "age".(‘Ê¤ý
+V	java:S125"<This block of commented-out lines of code should be removed.(Ç¸Á†ýÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "str".(„Ô™æ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ôÌ¿ò
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¹Âà·ýÿÿÿÿ
+T	java:S106("9Replace this use of System.out or System.err by a logger.(ƒÚáB8à¾¢ò³/
+V
+java:S1226"@Introduce a new variable instead of reusing the parameter "age".(‘Ê¤ý
+V
+java:S1226"@Introduce a new variable instead of reusing the parameter "str".(„Ô™æ
