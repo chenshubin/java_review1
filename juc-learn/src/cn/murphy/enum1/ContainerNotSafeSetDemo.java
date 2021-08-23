@@ -1,4 +1,4 @@
-package cn.murphy;
+package cn.murphy.enum1;
 
 import java.util.Collections;
 import java.util.HashSet;

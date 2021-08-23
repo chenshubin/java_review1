@@ -1,4 +1,4 @@
-package cn.murphy;
+package cn.murphy.enum1;
 
 import sun.rmi.runtime.NewThreadAction;
 

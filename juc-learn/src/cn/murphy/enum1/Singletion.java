@@ -1,4 +1,4 @@
-package cn.murphy;
+package cn.murphy.enum1;
 
 public class Singletion {
     private  static volatile Singletion singletion = null;

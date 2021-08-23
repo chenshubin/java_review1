@@ -1,4 +1,4 @@
-package cn.murphy;
+package cn.murphy.enum1;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

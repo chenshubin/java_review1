@@ -1,13 +1,18 @@
-package cn.murphy;
-
-import sun.awt.windows.ThemeReader;
+package cn.murphy.enum1;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ * 多个线程同时读一个资源类没有任何问题，所以为了满足并发梁，读取共享资源应该可以同时进行
+ * 但是，如果有一个线程想去写共享资源来，就不应该再有其他线程可以进行对该资源进行读和或写
+ * 小总结：
+ *  读-读能共存
+ *  读-写不能共存
+ *  写-写不能共存
+ *
+ */
 public class ReadwriteLockDemo {
 
     public static void main(String[] args) {
@@ -21,8 +26,8 @@ public class ReadwriteLockDemo {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
             },"写线程"+i).start();
+
 
             new Thread(() -> {
 
@@ -33,15 +38,7 @@ public class ReadwriteLockDemo {
                 }
 
             }, "读线程"+i).start();
-
-
-
-
         }
-
-
-
-
     }
 
 }
@@ -53,7 +50,12 @@ class MyCache{
     private volatile Map<String,Object> map = new HashMap<>();
     private ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 
-
+    /**
+     * 写锁
+     * @param key
+     * @param value
+     * @throws InterruptedException
+     */
     public  void put(String key ,Object value) throws InterruptedException {
         lock.writeLock().lock();
         try {
@@ -69,6 +71,11 @@ class MyCache{
 
     }
 
+    /**
+     * 读锁
+     * @param key
+     * @throws InterruptedException
+     */
     public  void get(String key) throws InterruptedException {
         lock.readLock().lock();
         try{

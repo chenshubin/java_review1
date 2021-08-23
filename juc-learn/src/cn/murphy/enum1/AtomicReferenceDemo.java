@@ -1,8 +1,5 @@
-package cn.murphy;
+package cn.murphy.enum1;
 
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
-
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class AtomicReferenceDemo {
