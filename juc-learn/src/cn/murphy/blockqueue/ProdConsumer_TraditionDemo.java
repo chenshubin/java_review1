@@ -1,4 +1,4 @@
-package cn.murphy.enum1;
+package cn.murphy.blockqueue;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

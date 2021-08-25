@@ -1,6 +1,4 @@
-package cn.murphy.enum1;
-
-import sun.net.www.protocol.http.ntlm.NTLMAuthentication;
+package cn.murphy.cas;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

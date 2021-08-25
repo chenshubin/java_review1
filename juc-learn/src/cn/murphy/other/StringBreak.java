@@ -1,4 +1,4 @@
-package cn.murphy.enum1;
+package cn.murphy.other;
 
 import java.util.*;
 

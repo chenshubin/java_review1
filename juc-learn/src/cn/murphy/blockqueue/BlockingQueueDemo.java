@@ -1,4 +1,4 @@
-package cn.murphy.enum1;
+package cn.murphy.blockqueue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

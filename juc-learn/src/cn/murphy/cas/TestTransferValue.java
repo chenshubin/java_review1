@@ -1,4 +1,4 @@
-package cn.murphy.enum1;
+package cn.murphy.cas;
 
 /**
  * 传值或者传引用小case

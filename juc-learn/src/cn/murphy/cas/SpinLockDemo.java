@@ -1,7 +1,10 @@
-package cn.murphy.enum1;
+package cn.murphy.cas;
 
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * atomicReference原子引用
+ */
 public class SpinLockDemo {
 
     AtomicReference<Thread> atomicReference = new AtomicReference<>();

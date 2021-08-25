@@ -1,4 +1,4 @@
-package cn.murphy.enum1;
+package cn.murphy.cas;
 
 import cn.murphy.enum1.CountryEnum;
 
