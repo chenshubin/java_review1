@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java_review.iml" filepath="$PROJECT_DIR$/.idea/java_review.iml" />
       <module fileurl="file://$PROJECT_DIR$/juc-learn/juc-learn.iml" filepath="$PROJECT_DIR$/juc-learn/juc-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-learn/spring-learn.iml" filepath="$PROJECT_DIR$/spring-learn/spring-learn.iml" />
     </modules>
   </component>
 </project>
