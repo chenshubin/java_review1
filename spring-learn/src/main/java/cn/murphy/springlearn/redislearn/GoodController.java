@@ -175,7 +175,7 @@ public class GoodController {
     public String buy_goods_cluster_redisson(){
 
         //3.0
-        String value = UUID.randomUUID().toString()+Thread.currentThread().getName();
+//        String value = UUID.randomUUID().toString()+Thread.currentThread().getName();
         RLock rLock = redisson.getLock(REDIS_LOCK);
         rLock.lock();
         try{
@@ -195,7 +195,10 @@ public class GoodController {
                 return "购买失败，欢迎下次光临" + port;
             }
         }finally {
-            rLock.unlock();
+            if(rLock.isLocked()&& rLock.isHeldByCurrentThread()){
+                rLock.unlock();
+            }
+
 
         }
 
