@@ -60,6 +60,22 @@
             <version>3.7.4</version>
         </dependency>
 
+
+
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+            <version>1.11.336</version>
+        </dependency>
+        <!-- 使用sts服务需要添加以下依赖 -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-sts</artifactId>
+            <version>1.11.336</version>
+        </dependency>
+
+
+
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
